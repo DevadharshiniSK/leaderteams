@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Spotknack | Student Teams - Leaderboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap'><link rel="stylesheet" href="./leaderboard.css">
+<link rel="shortcut icon" href="../favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="l-wrapper">
+  <div class="c-header"><img class="c-logo" src="https://spotknack.com/_nuxt/img/spotknackLogo.3ab48f6.svg" draggable="false"/>
+    <button class="c-button c-button--primary">Home</button>
+  </div>
+  <div class="l-grid">
+    <div class="l-grid__item l-grid__item--sticky">
+      <div class="c-card u-bg--light-gradient u-text--dark">
+        <div class="c-card__body">
+          <div class="u-display--flex u-justify--space-between">
+            <div class="u-text--left">
+              <div class="u-text--small">Total Coins Earned</div>
+              <h2>6 Teams</h2>
+            </div>
+            <div class="u-text--right">
+              <div class="u-text--small">By Teams</div>
+              <h2>400</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-card">
+        <div class="c-card__body">
+          <div class="u-text--center" id="winner"></div>
+        </div>
+      </div>
+    </div>
+    <div class="l-grid__item">
+      <div class="c-card">
+        <div class="c-card__header">
+          <h3>Coins Earned</h3>
+          <select class="c-select">
+            <option selected="selected">May 17,2022 - Present</option>
+          </select>
+        </div>
+        <div class="c-card__body">
+          <ul class="c-list" id="list">
+            <li class="c-list__item">
+              <div class="c-list__grid">
+                <div class="u-text--left u-text--small u-text--medium">Rank</div>
+                <div class="u-text--left u-text--small u-text--medium">Team Name</div>
+                <div class="u-text--right u-text--small u-text--medium"># Coins</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./leaderboard.js"></script>
+
+</body>
+</html>
