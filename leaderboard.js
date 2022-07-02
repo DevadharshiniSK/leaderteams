@@ -1,13 +1,13 @@
 console.clear();
 
-const team = [
+let team = [
 
 {
   rank: 1,
   name: 'Endeavors',
   handle: 'https://teams.spotknack.com',
   img: 'endeavors.png',
-  kudos: 100,
+  kudos: 250,
   sent: 41 },
 {
   rank: 2,
@@ -21,28 +21,28 @@ const team = [
   name: 'Phoenix Armada',
   handle: 'https://teams.spotknack.com',
   img: 'phoenix.png',
-  kudos: 300,
+  kudos: 150,
   sent: 16 },
 {
   rank: 4,
   name: 'Ravens',
   handle: 'https://teams.spotknack.com',
   img: 'ravens.png',
-  kudos: 600,
+  kudos: 100,
   sent: 6 },
 {
     rank: 5,
     name: 'Dandelions',
     handle: 'https://teams.spotknack.com',
     img: 'dandelion.png',
-    kudos: 150,
+    kudos: 100,
     sent: 31 },
 {
       rank: 6,
       name: 'Hydra',
       handle: 'https://teams.spotknack.com',
       img: 'hydra.png',
-      kudos: 350,
+      kudos: 100,
       sent: 4 },
 ];
 
